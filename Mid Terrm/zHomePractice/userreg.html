@@ -6,8 +6,9 @@
     <body>
         <h1>User Registration</h1>
         <form>
-            <legend>Personal information</legend>
-            <table>
+            <fieldset>
+                <legend>Personal information</legend>
+                <table>
                 <tr>
                     <td><label for="userName">Name:</label></td>
                     <td><input type="text" id="name" name="name"></td>
@@ -36,9 +37,25 @@
                     <td> <label for="DOB">Date of Birth:</label></td>
                     <td><input type="date" id="DOB" name="DOB"></td>
                 </tr>
+
+                <tr>
+                    <td><label for="UserCountry">Country:</label></td>
+                    <td>
+                        <select id="Country">   
+                            <option value="Default">Select country</option>
+                            <option value="BD">Bangladesh</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="USA">United States</option>
+                            <option value="PR">Portugal </option>
+                            <option value="FR">France</option>
+                        </select>
+                    </td>
+                </tr>
+                
                 
 
             </table>
+            </fieldset>
         </form>
     </body>
 </html>
