@@ -94,4 +94,20 @@ input[type="submit"]{
     color: aqua;
     padding: 12px 30px;
     width: 220%;
+    border-radius: 50px;
+    border-color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+}
+
+input[type="submit"]:hover{
+    background-color: chartreuse;
+}
+
+#Conditions{
+    
+
 }
