@@ -31,5 +31,23 @@ h1{
 
 form{
     display: flex;
-    
+
+}
+
+fieldset{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(176, 239, 241);
+    border-color: black;
+}
+
+legend{
+    padding: 0 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table{
+    width: auto;
 }
