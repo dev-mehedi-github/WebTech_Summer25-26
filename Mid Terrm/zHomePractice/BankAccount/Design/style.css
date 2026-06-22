@@ -56,4 +56,56 @@ table{
     width: auto;
 }
 
+tr{
+    margin-bottom: 5px;
+}
+
+td{
+    padding: 5px;
+}
+
+label{
+    display: flex;
+    color: black;
+    font-size: 18px;
+    
+}
+
+input[type="text"],
+input[type="password"],
+input[type="ConfirmPassword"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-color: rgb(5, 7, 7);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type="radio"]+ label,
+input[type="checkbox"]+ label{
+    cursor: pointer;
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    margin-right: auto;
+}
+
+input[type="submit"]{
+    background-color: rgb(163, 52, 52);
+    color: aqua;
+    padding: 12px 30px;
+    width:auto;
+    border-radius: 50px;
+    border-color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+}
+
 
