@@ -27,3 +27,17 @@ body{
     margin-top: 2rem;
 }
 
+h1{
+    color: blue;
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 35px;
+}
+
+h2{
+    color: rgb(157, 183, 214);
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 25px;
+}
+
