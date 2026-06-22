@@ -41,3 +41,19 @@ h2{
     font-size: 25px;
 }
 
+form{
+    display: flex;
+}
+
+legend{
+    padding: 0 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table{
+    width: auto;
+}
+
+
