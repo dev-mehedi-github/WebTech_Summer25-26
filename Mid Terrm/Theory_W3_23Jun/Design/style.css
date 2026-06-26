@@ -36,3 +36,7 @@ legend{
     font-weight: bold;
     font-size: 20px;
 }
+
+table{
+    width: auto;
+}
