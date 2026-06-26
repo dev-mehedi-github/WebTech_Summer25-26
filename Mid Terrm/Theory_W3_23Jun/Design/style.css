@@ -40,3 +40,11 @@ legend{
 table{
     width: auto;
 }
+
+tr{
+    margin-bottom: 20px;
+}
+
+td{
+    padding: 5px;
+}
