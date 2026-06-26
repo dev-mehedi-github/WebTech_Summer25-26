@@ -94,3 +94,30 @@ input[type="submit"]{
     cursor: pointer;
     margin: auto;
 }
+
+nput[type="submit"]:hover{
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    padding: 10px; 
+}
+
+.topnav{
+    background-color:gray;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.topnav a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dashed;
+    font-size: 20px;
+    font-weight: bold;
+}
