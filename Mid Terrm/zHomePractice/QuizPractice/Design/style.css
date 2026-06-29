@@ -38,3 +38,20 @@ legend{
     font-weight: bold;
     font-size: 18px;
 }
+
+table{
+    width: auto;
+}
+
+tr{
+    margin: 10px;
+}
+td{
+    padding: 5px;
+}
+
+label{
+display: flex;
+color: black;
+font-size: 15px;
+}
