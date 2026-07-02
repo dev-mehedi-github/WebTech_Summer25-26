@@ -99,15 +99,29 @@ input[type="reset"]{
 .header{
     background-color: royalblue;
     padding: 10px;
-    font-size: bold;
     color: white;
 }
 .topnav{
     background-color: rgb(91, 166, 228);
-    padding: 5px;
-    color: white;
-    font-size: small;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
     
 }
 
-.
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: dashed;
+    font-weight: bold;
+    
+}
+
+h1,h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
