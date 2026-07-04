@@ -2,4 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    line-height: 1.5;
+}
+
+.main-header{
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0px 2px 5px rgb(198, 232, 230);
+}
+
+.header-control{
+    display: flex;
+    gap: 15px;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.search-box input{
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
 }
