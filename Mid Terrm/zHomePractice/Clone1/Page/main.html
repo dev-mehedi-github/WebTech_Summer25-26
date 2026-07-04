@@ -1,82 +1,65 @@
-<!DOCTYPE html>
-<html lang="es-US">
-    <head>
-        <title>Clone1</title>
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <div class="position">
-            <div class="header">
-                <h2>My Website</h2>
+<body>
+    <header class="main-header">
+        <h2>My Website</h2>
+        <div class="header-controls">
+            <div class="search-box">
+                <input type="text" id="search" name="search" placeholder="Search...">
+                <img src="../Content/search1.png" alt="Search" width="30" height="25">
             </div>
+            <a href="#login" class="nav-link">Login</a>
+            <a href="#signup" class="nav-link">SignUp</a>
+            <img src="../Content/list.png" alt="Menu" class="menu-icon" width="30" height="25">
         </div>
+    </header>
 
-        <div class="topnav">
-            <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="courses">Courses</a></li>
-                <li><a href="tutorials">Tutorials</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li><a href="notes">Notes</a></li> 
-                <li><a href="contacts">Contacts</a></li>           
-            </ul>
+    <nav class="topnav">
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="courses">Courses</a></li>
+            <li><a href="tutorials">Tutorials</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="notes">Notes</a></li> 
+            <li><a href="contacts">Contacts</a></li>           
+        </ul>
+    </nav>
 
-            <input type="text" id="search" name="search" placeholder="Search...">
-            <img src="../Content/search1.png" alt="Search" width="30" height="25">
-            <label for="login"><u>Login</u></label>
-            <label for="SignUp"><u>SignUp</u></label>
-            <img src="../Content/list.png" alt="Menu" width="30" height="25">
-        </div>
+    <div class="container">
+        <aside class="leftSidebar">
+            <h3>HTML Tutorial</h3>
+            <div class="dropdown-group">
+                <label for="intro">Getting Started:</label>
+                <select name="intro" id="intro">
+                    <option value="Introduction">Introduction</option>
+                    <option value="Working">Working</option>
+                    <option value="Installation">Installation</option>
+                    <option value="Execution">Execution</option>
+                    <option value="PageSt">Page Structure</option>
+                </select>
+            </div>
 
-        <div class="leftSidebar">
-            <form action="">
-                <h3>HTML Tutorial</h3>
-                <aside>
-                    <table>
-                    <tr>
-                        <td>
-                            <select name="intro" id="intro">
-                                <option value="Introduction">Introduction</option>
-                                <option value="Working">Working</option>
-                                <option value="Installation">Installation</option>
-                                <option value="Execution">Execution</option>
-                                <option value="PageSt">Page Structure</option>
-                            </select>
-                        </td>
+            <div class="dropdown-group">
+                <label for="HTMLbasic">HTML Basics:</label>
+                <select name="HTMLbasic" id="HTMLbasic">
+                    <option value="skelataltags">Skeletal Tags</option>
+                    <option value="headingtags">Heading tags</option>
+                    <option value="paragarphtags">Paragraph Tags</option>
+                </select>
+            </div>
+        </aside>
 
-                    </tr>
+        <main class="mainBody">
+            <h1>HTML Tutorial</h1>
+            <p>The term <strong>Hypertext Markup Language</strong> is composed of the words “hypertext” and “markup language”. The term "hypertext" refers to the linking of text with other documents, and “markup language” refers to a language that uses a set of tags to structure content.</p>
 
-                    <tr>
-                        <td>
-                            <select name="HTMLbasic" id="HTMLbasic">
-                                <option value="skelataltags">Skelatal Tags</option>
-                                <option value="headingtags">Heading tags</option>
-                                <option value="paragarphtags">Paragraph Tags</option>
-                            </select>
-                        </td>
-                    </tr>
-                    </table>
-                </aside>
-            </form>
-        </div>
-
-        <div class="mainBody">
-            <form action="">
-                <p><h1>HTML Tutorial</h1></p>
-                <p>The word hypertext markup language is composed of the words “hypertext” and “markup language”. The term "hypertext" refers to the linking of text with other documents and “markup language” refers to a language that uses a set of tags.</p>
-
-                <fieldset>
-
-                    <h2>Get Started</h2>
-                    <p>Welcome to the HTML Tutorial tutorial series! To begin learning:</p>
-                    <ol>
-                        <li>Select a lesson from the sidebar on the left</li>
-                        <li>Work through the lessons in order for the best learning experience</li>
-                        <li>Each lesson contains detailed explanations and examples</li>
-                    </ol>
-                </fieldset>
-            
-            </form>
-        </div>
-    </body>
-</html>
+            <fieldset class="welcome-box">
+                <legend>Get Started</legend>
+                <p>Welcome to the HTML Tutorial series! To begin learning:</p>
+                <ol>
+                    <li>Select a lesson from the sidebar on the left.</li>
+                    <li>Work through the lessons in order for the best learning experience.</li>
+                    <li>Each lesson contains detailed explanations and examples.</li>
+                </ol>
+            </fieldset>
+        </main>
+    </div>
+</body>
