@@ -22,9 +22,11 @@ body{
     box-shadow: 0px 2px 5px rgb(198, 232, 230);
 }
 
-.header-control{
+.header-controls{
     display: flex;
-    gap: 15px;
+    align-items: center;
+    gap: 20px; /* This creates the spacing between Login and SignUp */
+    white-space: nowrap; /* Prevents them from breaking onto a new line */
 }
 
 .search-box{
@@ -39,4 +41,13 @@ body{
     border: none;
     text-decoration: none;
     font-weight: 600;
+}
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
