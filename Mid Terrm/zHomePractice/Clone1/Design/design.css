@@ -106,3 +106,21 @@ body{
 .dropdown-group {
     margin-bottom: 15px;
 }
+
+.dropdown-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.leftSidebar select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
