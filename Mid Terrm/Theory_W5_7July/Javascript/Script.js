@@ -21,7 +21,7 @@ function collect_data(){
 
 function collect_DOB()
 {
-    let dob=document.getElementById("DOB").value;
+    let dob=document.getElementById("dob").value;
     console.log(dob);
     return false;
 }
