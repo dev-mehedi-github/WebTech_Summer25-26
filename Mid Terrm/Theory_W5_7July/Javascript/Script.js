@@ -15,8 +15,8 @@ function collect_data(){
     let pname=document.getElementById("name").value;
     console.log(pname);
     let collectDOB = collect_DOB();
-    let collectEmail=collect_Email();
-    let collectPhone=collect_Phone();
+    collect_Email();
+    collect_Phone();
     return false;
 }
 
