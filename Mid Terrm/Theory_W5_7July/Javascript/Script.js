@@ -15,7 +15,8 @@ function collect_data(){
     let pname=document.getElementById("name").value;
     console.log(pname);
     let collectDOB = collect_DOB();
-    let collectEmail=collect_Email
+    let collectEmail=collect_Email();
+    let collectPhone=collect_Phone();
     return false;
 }
 
@@ -29,5 +30,11 @@ function collect_DOB()
 function collect_Email(){
     let email=document.getElementById("email").value;
     console.log(email);
+    return false;
+}
+
+function collect_Phone(){
+    let email=document.getElementById("phone").value;
+    console.log(phone);
     return false;
 }
