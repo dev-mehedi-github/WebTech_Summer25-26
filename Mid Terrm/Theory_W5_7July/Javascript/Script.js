@@ -10,3 +10,8 @@ console.log("Subtraction of a and b is: "+sub);
 a="asdfghjklio"
 var text=a.length;
 console.log(text);
+
+function collect_data(){
+
+    return false;
+}
