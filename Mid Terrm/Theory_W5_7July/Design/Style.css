@@ -38,3 +38,10 @@ body{
     box-shadow: 0 20px 20px;
     align-items: baseline;
 }
+
+h1{
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
