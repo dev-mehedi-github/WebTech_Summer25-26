@@ -114,3 +114,10 @@ input[type="reset"]{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
 }
+
+input[type="submit"]:hover{
+    background-color: black;
+}
+input[type="reset"]:hover{
+    background-color:blue;
+}
