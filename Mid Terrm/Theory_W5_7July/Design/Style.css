@@ -63,3 +63,16 @@ legend{
     border-radius: 20px;
     font-size: 15px;
 }
+
+table{
+    width: auto;
+}
+tr{
+    margin-bottom: 10px;
+}
+td{
+    padding: 8px;
+}
+label{
+    margin-bottom: 10px;
+}
