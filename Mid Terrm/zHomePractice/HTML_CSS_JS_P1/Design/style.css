@@ -19,3 +19,18 @@ body {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+nav {
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
