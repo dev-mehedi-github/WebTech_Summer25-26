@@ -9,7 +9,7 @@
         <div class="container">
             <fieldset>
                 <legend>AIUB LOGIN</legend>
-                <form>
+                <form onsubmit="return loginValidation()">
                     <table>
                         <tr>
                             <td><label for="Username">Username:</label></td>
@@ -24,6 +24,7 @@
             </fieldset>
             
             <input type="submit" id="submit" name="submit" value="Log In">
+            <p id="msg"></p>
             
         </form>
         </div>
