@@ -19,6 +19,7 @@ function loginValidation() {
 
     if (username == "AIUB" && password == "$_student") {
         msg.innerHTML = "Successfully Logged In";
+        alert("Successfully Logged In");
         attempt = 0;
         return false;
     }
