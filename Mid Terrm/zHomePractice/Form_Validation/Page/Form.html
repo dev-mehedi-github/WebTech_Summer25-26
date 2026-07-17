@@ -2,7 +2,7 @@
 <html lang="es-US">
   <head>
     <title>Form Validation</title>
-    <link rel="stylesheet" href="../Design/Sytle.css" />
+    <link rel="stylesheet" href="../Design/Sytle.css" >
     <script src="../JavaScript/JavaScript.js"></script>
     <!-- <H1>Doctor Appointment</H1> -->
   </head>
@@ -11,15 +11,12 @@
     <div class="position">
       <div class="header">
         <img
-          src="../Content/images.png"
-          alt="hospital logo"
-          width="70"
-          height="70"
-        />
+          src="../Content/images.png"alt="hospital logo"width="70"height="70"/>
         <a href="">Home</a>
         <a href="../Page/Form.html">Make An Appointment</a>
         <a href="">Login</a>
         <a href="">Forget Password</a>
+        <hr>
       </div>
     </div>
   </body>
@@ -36,7 +33,7 @@
 
         <tr>
           <td>
-            <img src="../Content/list.png" alt="" style="width:18px;">
+            <img src="../Content/list.png" alt="" style="width: 18px" >
             <select name="choose_Branch" id="choose_Branch">
               <option value="ChooseBranch">Choose Branch</option>
               <option value="DHM">Dhanmondi</option>
@@ -47,7 +44,7 @@
           </td>
 
           <td>
-            <img src="../Content/list.png" alt="" style="width:18px;">
+            <img src="../Content/list.png" alt="" style="width: 18px" >
             <select name="speciality" id="speciality">
               <option value="Speciality">Choose Specialist</option>
               <option value="CS">Colorectal Surgery</option>
@@ -56,8 +53,50 @@
           </td>
         </tr>
 
-        
+        <tr>
+          <td colspan="2">
+            <img src="../Content/user.png" alt="" style="width: 18px" >
+            <select name="chDr" id="chDr">
+              <!-- <option value=""><input type="text" id="srcDr" name="srcDr"></option> -->
+              <option value="chDoc">Chose a Doctor</option>
+              <option value="FE">Dr. Farhan Esraq</option>
+              <option value="SK">Dr. Samiha Karim</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <img src="../Content/user.png" alt="" style="width: 18px" >
+            <input type="text" id="note" name="note" >
+          </td>
+        </tr>
       </table>
+    </div>
+
+    <div class="container2">
+      <div class="c2Head">
+        <a href=""> New Patient </a>
+        <a href=""> Already Registered ?</a>
+        <hr>
+      </div>
+
+      <table>
+        <tr>
+          <td>
+            <label for="Name">Name</label>
+          </td>
+          
+        </tr>
+
+        <tr>
+          <td>
+            <input type="text" id="pname" name="pname">
+          </td>
+        </tr>
+      </table>
+
+
     </div>
   </main>
 
