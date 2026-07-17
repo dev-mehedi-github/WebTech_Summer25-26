@@ -4,15 +4,16 @@
 <head>
     <title>Student Info</title>
     <!-- <link rel="stylesheet" href="C:\Users\student\Desktop\wentech j\Lab Task1\Design\design.css"> lab pc -->
-     <link rel="stylesheet" href="/Users/batman/Desktop/Code (MAC)/WebTech_Summer25-26/Mid Terrm/Lab_Task1_28Jun/Design/design.css"> 
+    <link rel="stylesheet" href="../Design/design.css">
+    <script src="../Javascript/script.js"></script>
      <!-- dirctory for mac -->
 </head>
 <body>
-    <form>
+    
     <div class="container">
         <fieldset>
             <legend>Student Information</legend>
-
+            <form onsubmit=" return collect_data()">
         <table>
             <tr> 
                 <td><label for="Name" >Full Name</label></td> 
@@ -44,18 +45,11 @@
             </tr>
         </table>
         </fieldset>
+        <div class="btn-group">
+            <input type="submit" id="submit" name="submit" value="SignUp">
+            <input type="reset" id="reset" name="reset">
+        </div>
         </form> 
     </div>
-    <form>
-    <div class="button-group"
-    <table>
-        <tr>
-            <td> <input type="submit" id="submit" name ="submit" value="SUBMIT"></td>
-            <td> <input type="button" id="clear" name ="submit" value="CLEAR"></td>
-        </tr>
-    </table>
-
-   </form>
-</div>
 </body>
 </html>
