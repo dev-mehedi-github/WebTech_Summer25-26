@@ -83,24 +83,38 @@
 
       <table>
         <tr>
-          <td>
-            <label for="Name">Name</label>
-          </td>
+          <td><label for="Name">Name</label> </td>
+          <td><label for="Phone">Phone</label></td>
+          <td><label for="Age">Age</label></td>
+          <td><label for="Gender">Gender</label</td>
           
         </tr>
 
         <tr>
+          <td><input type="text" id="pname" name="pname"></td>
+          <td><input type="text" id="pnum" name="pmum"></td>
+          <td><input type="number" name="page" id="page"></td>
           <td>
-            <input type="text" id="pname" name="pname">
+            <select name="gender" id="pgender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="others">Others</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" name="condt" id="condt" >
+            <label for="condt">I agree to the Terms and Conditions</label>
           </td>
         </tr>
       </table>
-
-
     </div>
+
   </main>
 
   <footer>
-    <h4>_________</h4>
+    <hr>
   </footer>
 </html>
