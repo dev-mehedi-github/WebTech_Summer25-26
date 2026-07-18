@@ -1,44 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-Us">
-    <head>
-        <title>New Appointment</title>
-        <link rel="shortcut icon" href="../Assets/images.png" type="image/x-icon">
-        <link rel="stylesheet" href="../Design/style.css">
-    </head>
 
-    <body>
-        <nav>
-            <div class="container nav__container">
-                <img src="../Assets/images.png" alt="" style="width: 50%;">
+<head>
+    <title>New Appointment</title>
+    <link rel="shortcut icon" href="../Assets/images.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../Design/style.css" />
+</head>
 
-                <ul class="nav_menu">
-                    <li><a href="../Page/Appointment.html">Home</a></li>
-                    <li><a href="../Page/Appointment.html">Online Doctor Appointment</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><a href="">Forget Password</a></li>
-                </ul>
-                <hr>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <img src="../Assets/images.png" alt="" style="width: 50%" />
+
+            <ul class="nav_menu">
+                <li><a href="../Page/Appointment.html">Home</a></li>
+                <li>
+                    <a href="../Page/Appointment.html">Online Doctor Appointment</a>
+                </li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Forget Password</a></li>
+            </ul>
+            <hr />
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header__container">
+            <div class="header__center">
+                <h1>Doctor Appointment</h1>
+                <table>
+                    <tr>
+                        <td>
+                            <h4>Appointment Date :</h4>
+                        </td>
+                        <td>
+                            <p id="date_now"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>*** Advance Appointment booking is not available.</h5>
+                        </td>
+                    </tr>
+                </table>
+                <hr />
             </div>
-        </nav>
+        </div>
+    </header>
 
-        <header>
-            <div class="container header__container">
-                <div class="header__center">
-                    <h1>Doctor Appointment</h1>
-                    <table>
-                        <tr>
-                            <td><h4>Appointment Date :</h4> </td>
-                            <td><p id="date_now">  </p></td>
-                        </tr>
-                        <tr>
-                            <td><h5>*** Advance Appointment booking is not available.</h5></td>
-                        </tr>
-                    </table>
-                </div>
+    <main>
+        <div class="container main__container">
+            <div class="selection_form">
+                <table>
+                    <tr>
+                        <td><label for="chBranch">Choose Branch</label></td>
+                        <td><label for="Speciality">Speciality</label></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="../Content/list.png" alt="" style="width: 18px" />
+                            <select name="choose_Branch" id="choose_Branch">
+                                <option value="ChooseBranch">Choose Branch</option>
+                                <option value="DHM">Dhanmondi</option>
+                                <option value="SA">Savar</option>
+                                <option value="UTT4">Uttora Sector 4</option>
+                                <option value="UTT13">Uttora Sector 13</option>
+                            </select>
+                        </td>
+
+                        <td>
+                            <img src="../Content/list.png" alt="" style="width: 18px" />
+                            <select name="speciality" id="speciality">
+                                <option value="Speciality">Choose Specialist</option>
+                                <option value="CS">Colorectal Surgery</option>
+                                <option value="EM">Endocrine Medicine</option>
+                            </select>
+                        </td>
+                    </tr>
+
+
+                </table>
             </div>
-        </header>
+        </div>
+    </main>
+</body>
 
-        
-
-    </body>
 </html>
