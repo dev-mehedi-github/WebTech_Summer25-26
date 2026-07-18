@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08) ;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 12px 0;
+}
+
