@@ -3,14 +3,14 @@
 
 <head>
     <title>New Appointment</title>
-    <link rel="shortcut icon" href="../Assets/images.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../Assets/images.png" type="image/x-icon" >
     <link rel="stylesheet" href="../Design/style.css" />
 </head>
 
 <body>
     <nav>
         <div class="container nav__container">
-            <img src="../Assets/images.png" alt="" style="width: 50%" />
+            <img src="../Assets/images.png" alt="" style="width: 28px" >
 
             <ul class="nav_menu">
                 <li><a href="../Page/Appointment.html">Home</a></li>
@@ -59,7 +59,7 @@
 
                     <tr>
                         <td>
-                            <img src="../Content/list.png" alt="" style="width: 18px" />
+                            <img src="../Assets/list.png" alt="" style="width: 18px">
                             <select name="choose_Branch" id="choose_Branch">
                                 <option value="ChooseBranch">Choose Branch</option>
                                 <option value="DHM">Dhanmondi</option>
@@ -70,12 +70,31 @@
                         </td>
 
                         <td>
-                            <img src="../Content/list.png" alt="" style="width: 18px" />
+                            <img src="../Assets/list.png" alt="" style="width: 18px" >
                             <select name="speciality" id="speciality">
                                 <option value="Speciality">Choose Specialist</option>
                                 <option value="CS">Colorectal Surgery</option>
                                 <option value="EM">Endocrine Medicine</option>
                             </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <img src="../Assets/user.png" alt="" style="width: 18px">
+                            <select name="chDr" id="chDr">
+                                <!-- <option value=""><input type="text" id="srcDr" name="srcDr"></option> -->
+                                <option value="chDoc">Chose a Doctor</option>
+                                <option value="FE">Dr. Farhan Esraq</option>
+                                <option value="SK">Dr. Samiha Karim</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <img src="../Content/user.png" alt="" style="width: 18px">
+                            <input type="text" id="note" name="note">
                         </td>
                     </tr>
 
