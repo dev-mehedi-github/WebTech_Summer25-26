@@ -12,6 +12,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $website = trim($_POST["website"] ?? "");
     $comment = trim($_POST["comment"] ?? "");
     $gender = trim($_POST["gender"] ?? "");
-
 }
 ?>
