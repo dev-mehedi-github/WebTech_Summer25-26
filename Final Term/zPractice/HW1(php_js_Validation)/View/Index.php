@@ -13,7 +13,6 @@ include "../Controler/IndexValidation.php";
             let nm = document.getElementById("name").value.trim();
             let mail = document.getElementById("email").value.trim();
             let web = document.getElementById("website").value.trim();
-
             let gender = document.querySelector('input[name="gender"]:checked');
 
             let valid = true;
@@ -55,8 +54,15 @@ include "../Controler/IndexValidation.php";
 </head>
 
 <body>
-    <form method="post" action="" onsubmit="return collect_data()" >
+    <form method="post" action="" onsubmit="return collect_data()">
         <h1>PHP-JS Form Validation Example</h1>
+
+        <?php if (!empty($message)): ?>
+            <div style="color: green; font-weight: bold; margin-bottom: 15px;">
+                <?php echo $message; ?>
+            </div>
+        <?php endif; ?>
+
         <table>
             <tr>
                 <td>
@@ -85,10 +91,10 @@ include "../Controler/IndexValidation.php";
             <tr>
                 <td><label for="website">Website:</label></td>
                 <td>
-                    <input type="url" id="website" name="website"> 
+                    <input type="url" id="website" name="website">
                     <?php echo $website ?>
                 </td>
-                
+
             </tr>
 
             <tr>
@@ -97,23 +103,30 @@ include "../Controler/IndexValidation.php";
                     <textarea id="comment" name="comment" rows="5" cols="40" style="resize: none;"></textarea>
                     <?php echo $comment ?>
                 </td>
-                
+
             </tr>
 
             <tr>
                 <td><label>Gender:</label></td>
                 <td>
-                    <input type="radio" id="gender" name="gender" value="Male" required>
-                    <label for="gender">Male</label>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
 
-                    <input type="radio" id="gender" name="gender" value="Female" required>
-                    <label for="gender">Female</label>
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
 
-                    <input type="radio" id="gender" name="gender" value="Others" required>
-                    <label for="gender">Others</label>
+                    <input type="radio" id="others" name="gender" value="Others" required>
+                    <label for="others">Others</label>
 
                     <span class="required" style="color: red;">*</span>
                     <?php echo $gender ?>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="remember" name="remember" value="1" <?php echo (!empty($_COOKIE["remember_user"])) ? "checked" : ""; ?>>
+                    <label for="remember"> Remember Me </label>
                 </td>
             </tr>
 
