@@ -57,6 +57,13 @@ include "../Controler/IndexValidation.php";
 <body>
     <form method="post" action="" onsubmit="return collect_data()" >
         <h1>PHP-JS Form Validation Example</h1>
+
+        <?php if (!empty($message)): ?>
+            <div style="color: green; font-weight: bold; margin-bottom: 15px;">
+                <?php echo $message; ?>
+            </div>
+        <?php endif; ?>
+        
         <table>
             <tr>
                 <td>
