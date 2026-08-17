@@ -6,7 +6,8 @@ $password="";
 $message="";
 $remember=false;
 
-if(isset($_COOKIE["remember_user"])){
+if(isset($_COOKIE["remember_user"]))
+    {
     $name=$_COOKIE["remember_user"];
 }
 if($_SERVER["REQUEST_METHOD"]=="POST")
